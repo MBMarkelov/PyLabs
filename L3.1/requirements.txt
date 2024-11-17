@@ -1,3 +1,4 @@
 psycopg2>=2.9.3
 matplotlib>=3.7.0
 tkinter
+pytest>=7.4.0

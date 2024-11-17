@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 import psycopg2
 
-import matplotlib.pyplot as plt
+import matplotlib
 from datetime import datetime
 
 # Подключение к базе данных
