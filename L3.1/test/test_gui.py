@@ -1,8 +1,8 @@
 import pytest
 from unittest.mock import MagicMock
 
-from db import get_connection
-from gui import HabitTrackerApp
+from backendAndDB.db import get_connection
+from GUI.gui import HabitTrackerApp
 import tkinter as tk
 
 def test_add_habit_via_gui():

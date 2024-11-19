@@ -1,8 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 import matplotlib.pyplot as plt
-from db import add_habit, get_habits, add_habit_history,create_tables, get_habit_history
-
+from backendAndDB.db import create_tables, add_habit, get_habits, get_habit_history, add_habit_history
 
 class HabitTrackerApp:
     def __init__(self, root):

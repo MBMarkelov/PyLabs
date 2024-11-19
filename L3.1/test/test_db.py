@@ -1,6 +1,6 @@
 import pytest
 import psycopg2
-from db import get_connection, create_tables, add_habit, get_habits
+from backendAndDB.db import get_connection, add_habit, get_habits
 
 
 def test_get_connection():

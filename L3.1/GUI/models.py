@@ -7,5 +7,3 @@ class Habit:
     def __repr__(self):
         return f"Habit(name={self.name}, frequency={self.frequency})"
 
-class HabitException(Exception):
-    """Кастомное исключение для ошибок работы с привычками."""

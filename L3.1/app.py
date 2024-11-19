@@ -1,5 +1,5 @@
 import tkinter as tk
-from gui import HabitTrackerApp
+from GUI import HabitTrackerApp
 
 if __name__ == "__main__":
     # Инициализация главного окна
