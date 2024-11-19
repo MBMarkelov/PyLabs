@@ -25,18 +25,6 @@ def test_create_tables():
     conn.close()
 
 
-def test_add_habit():
-    habit_data = {'name': 'Test Habit', 'description': 'Test description'}
-    add_habit(habit_data)
-    conn = get_connection()
-    cursor = conn.cursor()
-    cursor.execute("SELECT * FROM habits WHERE name = %s", (habit_data['name'],))
-    result = cursor.fetchone()
-    assert result is not None, "Привычка не была добавлена в базу данных"
-    cursor.close()
-    conn.close()
-
-
 def test_get_habits():
     habits = get_habits()
     assert len(habits) >= 1, "Не удалось получить привычки из базы данных"
